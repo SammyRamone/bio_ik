@@ -169,8 +169,6 @@ target_link_libraries(
     project_options
     project_warnings
     bio_ik
-    fcl
-    tf2_kdl
     # TODO(tylerjw): what does this change?
     -static-libgcc
     -static-libstdc++
