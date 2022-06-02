@@ -140,8 +140,8 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 target_link_libraries(
   ${PROJECT_NAME}
   PRIVATE
-    project_options
-    project_warnings
+    #project_options
+    #project_warnings
   PUBLIC
     rclcpp::rclcpp
     moveit_core::moveit_robot_model
@@ -166,8 +166,8 @@ target_include_directories(${PROJECT_NAME}_plugin PUBLIC
 target_link_libraries(
   ${PROJECT_NAME}_plugin
   PRIVATE
-    project_options
-    project_warnings
+    #project_options
+    #project_warnings
     bio_ik
     # TODO(tylerjw): what does this change?
     -static-libgcc
